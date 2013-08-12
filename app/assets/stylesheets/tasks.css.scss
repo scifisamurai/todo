@@ -1,3 +1,31 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.field_with_errors {
+	padding:2px;
+	background-color:salmon;
+	display:inline-table;
+}
+
+
+#notice{
+	color:green;
+}
+
+.vtop{
+	vertical-align:top;
+}
+
+
+.bottom_actions{
+	margin-top:30px;
+}
+
+.button{
+	width:430px;
+	height:30px;
+	font-size:15px;
+	color:rgb(245,236,236);
+	background-color:mediumslateblue;
+	cursor:pointer;
+}

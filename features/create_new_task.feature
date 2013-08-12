@@ -4,12 +4,12 @@ Feature: Create new tasks
 
   Scenario: I can get to the new task page from the home page
   Given I am on the home page
-  When I click "New Task"
-  Then I should see "Enter new task"
+  When I follow "New Task"
+  Then I should see "Enter New Task"
 
   Scenario:
   Given I am on the new task page
-  When I fill in "task description" with "Buy Bread"
-  And I click "Save"
-  Then I should see "Task created successfully"
+  When I fill in "description" with "Buy Bread"
+  And I click "Create Task"
+  Then I should see "Task Created Successfully"
   And I should see "Buy Bread"
